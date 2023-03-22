@@ -50,19 +50,19 @@ function calcular() {
   resultado.innerHTML = `<h2 class="result-info">Você vai precisar de:</h2>`
   resultado.innerHTML += `
     <div class="result-block">
-      <img src="./assets/carne.svg"/>
+      <img src="./carne.svg"/>
       <p>${qdtTotalCarne/1000} Kg de Carne</p>
     </div>
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <img src="./assets/cerveja.svg"/>
+      <img src="./cerveja.svg"/>
       <p>${Math.ceil(qdtTotalCerveja/355)} latas de Cerveja</p>
     </div>
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <img src="./assets/refri.svg"/>
+      <img src="./refri.svg"/>
       <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de Bebidas</p>
     </div>
     </br>
